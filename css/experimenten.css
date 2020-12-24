@@ -5,12 +5,12 @@ body {
   font-family: arial;
 }
 
-/* main {
+main {
   background-color: lightgray;
   padding: 10px;
   border-radius: 20px;
   margin-top: 50px;
-} */
+}
 
 nav ul {
   display: flex;
