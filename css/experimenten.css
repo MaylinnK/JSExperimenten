@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: arial;
+}
+
+/* main {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+} */
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  color: gray;
+}
+
+li {
+    margin-bottom: 10px;
+}
