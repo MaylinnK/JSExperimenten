@@ -20,13 +20,13 @@ function werp() {
   var extra = dobbelsteenAfbeelding;
   document.querySelector("img").src = src + extra;
   if (aantalOgen == 0 || aantalOgen == 2 || aantalOgen == 4) {
-    document.querySelector('p').textContent = "Jammer, oneven. Je hebt verloren!";
+    document.querySelector('p').textContent = "Uneven, you've lost!";
   }
   else if (aantalOgen == 1 || aantalOgen == 3) {
-    document.querySelector('p').textContent = "Even, je hebt gewonnen";
+    document.querySelector('p').textContent = "Even, you've won!";
   }
   else if (aantalOgen == 5){
-    document.querySelector('p').textContent = "Feest! dubbel uitbetaald!11!!!!";
+    document.querySelector('p').textContent = "Jackpot!!";
   }
 }
 document.querySelector("img").addEventListener("click", werp);
